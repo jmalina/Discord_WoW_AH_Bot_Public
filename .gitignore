@@ -1,0 +1,5 @@
+# Our config file with our defaults, token, blizz api key, ect.
+#/config/config.js
+
+# Ignore any data we have saved about realms
+/AH_DATA*.json
