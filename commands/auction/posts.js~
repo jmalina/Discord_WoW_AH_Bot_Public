@@ -50,7 +50,7 @@ class ccPosts extends Commando.Command {
         }
 
         msg.message.channel.sendMessage('Getting data for ' + realm +' '+ region +'. This may take some extra time.').then((message) => {
-            if(name === "" || name === undefined)
+            if(name === "")
             {
                 ahData.numOfAuctions(realm, region, function callback(data){
                     message.delete() 
