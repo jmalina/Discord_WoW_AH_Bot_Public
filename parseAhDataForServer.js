@@ -234,7 +234,7 @@ exports.undercut = function(owner, itemName, realm, region, callback)
 					num++;
 				}
 				average /= num;
-				if (getItemNameFromCache(item) === undefined){continue};
+				if (getItemNameFromCache(item) === undefined){continue}
 				list.push([num, formatCurrency(Math.round(average)), getItemNameFromCache(item)+` [${quantity}]`]) // add our item to a list
 			}
 		}

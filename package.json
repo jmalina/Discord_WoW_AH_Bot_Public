@@ -4,7 +4,9 @@
   "description": "A simple discord bot that uses the blizzard auction house api to get auction data.",
   "main": "discordBot.js",
   "scripts": {
-    "test": "node discordBot.js"
+    "test": "node discordBot.js",
+    "lint": "eslint .",
+	  "lint-fix": "eslint --fix .  --ext .js"
   },
   "keywords": [
     "discord",
