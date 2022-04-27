@@ -12,27 +12,32 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    
     strategy:
       matrix:
         node-version: [8.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
 
     steps:
-      - uses: actions/checkout@v3
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v3
-        with:
-          node-version: ${{ matrix.node-version }}
-          cache: "npm"
-
-      #- name: Install dependencies
-      #  run: npm install
-      - name: Linter (ESLint)
-        run: npm run lint
-      - name: Formatter (Prittier)
-        run: npm run prettier
+    - uses: actions/checkout@v3
+    - name: Use Node.js ${{ matrix.node-version }}
+      uses: actions/setup-node@v3
+      with:
+        node-version: ${{ matrix.node-version }}
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: npm install
+    
+    - name: Linter (ESLint)
+      continue-on-error: true
+      run: npm run lint
+      
+    - name: Formatter (Prittier)
+      run: npm run prettier
+      
     #- name: Test (Jest)
     #  run: CI=true npm run test
+    
     #- name: Build
     #  run: npm run build
