@@ -1,1 +1,66 @@
-[{"files":[{"url":"http://auction-api-us.worldofwarcraft.com/auction-data/af669c2df8778df0e8a283c3686504ef/auctions.json","lastModified":1489016755000}]},{"files":[{"url":"http://auction-api-us.worldofwarcraft.com/auction-data/1df2364d502d1d8a765b114f0da56207/auctions.json","lastModified":1488488335000}]},{"files":[{"url":"http://auction-api-us.worldofwarcraft.com/auction-data/5bc6c35600c6bc1c75581be4a68b82a4/auctions.json","lastModified":1488481015000}]},{"files":[{"url":"http://auction-api-eu.worldofwarcraft.com/auction-data/676c6ea11d6b2b5f44af97790833bcc5/auctions.json","lastModified":1488879123000}]},{"files":[{"url":"http://auction-api-eu.worldofwarcraft.com/auction-data/186cf02d587914f8d17022445558ae33/auctions.json","lastModified":1489010463000}]},{"files":[{"url":"http://auction-api-eu.worldofwarcraft.com/auction-data/0733c8039c52cc95c583aef0dcab6d46/auctions.json","lastModified":1488868163000}]},{"files":[{"url":"http://auction-api-us.worldofwarcraft.com/auction-data/918ad8cfafe03cf711df68bf8bc93bad/auctions.json","lastModified":1488675595000}]},{"files":[{"url":"http://auction-api-us.worldofwarcraft.com/auction-data/bdb56d515bffc5daec0e555677d0b860/auctions.json","lastModified":1488869635000}]}]
+[
+  {
+    "files": [
+      {
+        "url": "http://auction-api-us.worldofwarcraft.com/auction-data/af669c2df8778df0e8a283c3686504ef/auctions.json",
+        "lastModified": 1489016755000
+      }
+    ]
+  },
+  {
+    "files": [
+      {
+        "url": "http://auction-api-us.worldofwarcraft.com/auction-data/1df2364d502d1d8a765b114f0da56207/auctions.json",
+        "lastModified": 1488488335000
+      }
+    ]
+  },
+  {
+    "files": [
+      {
+        "url": "http://auction-api-us.worldofwarcraft.com/auction-data/5bc6c35600c6bc1c75581be4a68b82a4/auctions.json",
+        "lastModified": 1488481015000
+      }
+    ]
+  },
+  {
+    "files": [
+      {
+        "url": "http://auction-api-eu.worldofwarcraft.com/auction-data/676c6ea11d6b2b5f44af97790833bcc5/auctions.json",
+        "lastModified": 1488879123000
+      }
+    ]
+  },
+  {
+    "files": [
+      {
+        "url": "http://auction-api-eu.worldofwarcraft.com/auction-data/186cf02d587914f8d17022445558ae33/auctions.json",
+        "lastModified": 1489010463000
+      }
+    ]
+  },
+  {
+    "files": [
+      {
+        "url": "http://auction-api-eu.worldofwarcraft.com/auction-data/0733c8039c52cc95c583aef0dcab6d46/auctions.json",
+        "lastModified": 1488868163000
+      }
+    ]
+  },
+  {
+    "files": [
+      {
+        "url": "http://auction-api-us.worldofwarcraft.com/auction-data/918ad8cfafe03cf711df68bf8bc93bad/auctions.json",
+        "lastModified": 1488675595000
+      }
+    ]
+  },
+  {
+    "files": [
+      {
+        "url": "http://auction-api-us.worldofwarcraft.com/auction-data/bdb56d515bffc5daec0e555677d0b860/auctions.json",
+        "lastModified": 1488869635000
+      }
+    ]
+  }
+]

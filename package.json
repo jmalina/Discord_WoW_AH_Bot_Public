@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node discordBot.js",
     "lint": "eslint .",
-	  "lint-fix": "eslint --fix .  --ext .js"
+    "lint-fix": "eslint --fix .  --ext .js"
   },
   "keywords": [
     "discord",
@@ -40,6 +40,7 @@
     "uws": "^200.0.0"
   },
   "devDependencies": {
-    "eslint": "^8.14.0"
+    "eslint": "^8.14.0",
+    "prettier": "^2.6.2"
   }
 }
